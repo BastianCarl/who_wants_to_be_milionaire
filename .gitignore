@@ -1,0 +1,42 @@
+# node_modules
+node_modules/
+
+# build output
+/build
+/dist
+
+# production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.*.local
+
+# testing
+/coverage
+/jest-cache
+/.eslintcache
+
+# editor folders
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# misc
+*.tgz
+package-lock.json
+yarn.lock
+
+# Optional: lock files (comment out if you want to commit lock files)
+# package-lock.json
+# yarn.lock
